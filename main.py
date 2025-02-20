@@ -10,9 +10,6 @@ from typing import Tuple, List, Dict
 import numpy as np
 import heapq
 
-def f():
-    pass
-
 @dataclass(frozen=True)
 class State:  #kgian 3D
     x : int
